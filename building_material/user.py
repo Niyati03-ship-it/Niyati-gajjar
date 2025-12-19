@@ -1,13 +1,12 @@
 import json
 
 def load_data():
-    with open("database.json", "r") as f:
-        return json.load(f)
+    with open("database.json", "r") as file:
+        return json.load(file)
 
 def save_data(data):
-    with open("database.json", "w") as f:
-        json.dump(data, f, indent=4)
-
+    with open("database.json", "w") as file:
+        json.dump(data, file, indent=4)
 def place_order():
     name = input("Enter your name: ")
     bricks = int(input("No. of bricks: "))

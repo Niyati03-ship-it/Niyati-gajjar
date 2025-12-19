@@ -3,8 +3,8 @@ import json
 from user import save_data
 
 def load_data():
-    with open("database.json", "r") as f:
-        return json.load(f)
+    with open("database.json", "r") as file:
+        return json.load(file)
 
 def confirm_delivery():
     transporter = input("Enter your name (transporter): ")
