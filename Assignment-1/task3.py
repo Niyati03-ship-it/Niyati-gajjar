@@ -19,11 +19,7 @@ subjects = ["Math", "Science", "English"]
 marks = (85, 90, 88)
 
 # Dictionary type
-student_info = {
-    "name": "Aarav",
-    "age": 18,
-    "grade": "A"
-}
+student_info = {"name": "Aarav","age": 18,"grade": "A"}
 
 # Set type
 unique_numbers = {1, 2, 3, 3, 2}
@@ -57,7 +53,7 @@ else:
 
 #how to create variable in python?
 # Creating variables of different types
-student_name = "Nina"
+student_name = "Niyati"
 student_age = 18
 student_grade = "A"
 is_passed = True

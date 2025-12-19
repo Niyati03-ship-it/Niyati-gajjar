@@ -2,9 +2,9 @@
 # Following PEP 8: indentation, comments, and variable naming
 
 # Assign values to variables
-student_name = "Rahul Mehta"
-student_age = 17
-student_class = "12th Grade"
+student_name = "Gajjar Niyati"
+student_age = 18
+student_class = "10th"
 
 # Print the student details
 print("Student Information:")
